@@ -3,8 +3,8 @@ A Discord Bot Website Template Fully Dynamic and Live Server and User Count in E
 
 ### Contents 
 - [How to Start it?](https://github.com/TajuModding/Bot-Website-Template-EJS#how-to-start-it) 
-- [Preview](https://github.com/TajuModding/Bot-Website-Template-EJS#preview) --
-                                                                              |__ [With Stats](https://github.com/TajuModding/Bot-Website-Template-EJS#with-stats)
+- [Preview](https://github.com/TajuModding/Bot-Website-Template-EJS#preview) -- <br>
+                                                                              |__ [With Stats](https://github.com/TajuModding/Bot-Website-Template-EJS#with-stats) <br>
                                                                               |__ [Without Stats](https://github.com/TajuModding/Bot-Website-Template-EJS#without-stats)
 - [Credits](https://github.com/TajuModding/Bot-Website-Template-EJS#credits)
 - [Error?](https://github.com/TajuModding/Bot-Website-Template-EJS#errors)
