@@ -1,0 +1,26 @@
+{
+  "name": "Bot-Website-Template-EJS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Tejas Lamba#1924 aka TajuModding",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "discord.js": "^13.1.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "memorystore": "^1.6.6",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.0.5",
+    "visa2discord": "^1.0.4"
+  },
+  "devDependencies": {
+    "node": "^16.9.1"
+  },
+  "keywords": [],
+  "description": ""
+}

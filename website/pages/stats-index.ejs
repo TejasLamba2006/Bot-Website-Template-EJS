@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<link rel="icon" 
+      type="image/png" 
+      href="<%= logo %>">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%= name %></title>
+    <!-- Open Graph data -->
+    <meta property="og:title" content= <%= name %> />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://<%= name %>.hirzidevs.net" />
+    <meta property="og:image" content= <%= logo %> />
+    <meta property="og:description" content="<%= description %>" />
+    <meta property="og:site_name" content= <%= name %> />
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/counter.css">
+    <link rel="stylesheet" href="src/css/counter.scss">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" />
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+<!-- Include a required theme -->
+<link rel="stylesheet" href="@sweetalert2/themes/dark/dark.css">
+<script src="sweetalert2/dist/sweetalert2.min.js"></script>
+</head>
+
+<body class="is-boxed has-animations">
+    <div class="body-wrap boxed-container">
+        <header class="site-header">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+                            <a href="#">
+								<img class="header-logo-image asset-light" src="https://cdn.discordapp.com/icons/869916537610448897/a_9c233237bd7f8b2aeb37465f48419b87.gif?size=32" alt="Logo">
+								<img class="header-logo-image asset-dark" src="https://cdn.discordapp.com/icons/869916537610448897/a_9c233237bd7f8b2aeb37465f48419b87.gif?size=32" alt="Logo">
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-inner">
+						<div class="hero-copy">
+	                        <h1 class="hero-title mt-0"><%= name %></h1>
+	                        <p class="hero-paragraph"><%= description %></p>
+	                        <div class="hero-cta">
+								<a class="button button-primary" href="/invite">Invite it</a>
+                
+								<div class="lights-toggle">
+									<input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch" checked="checked">
+									<label for="lights-toggle" class="text-xs"><span>Turn me <span class="label-text">dark</span></span></label>
+							</div>
+            </div>
+            <!--  From here -->
+                <div class="niger-tejas columns">
+          <div class="column">
+            <div class="value niger-tejas" akhi="niger"></div>
+            <center>
+              <h1 class="counter"><i class="fas fa-satellite-dish icon-color-white"></i> <b>Servers: <%= guilds %></b></h1>
+              <center>
+          </div>
+          <div class="pussygreen1 columns">
+          <div class="column">
+            <div class="value pussygreen" akhi="niger"></div>
+            <center>
+           <h1 class="counterr"><style   padding-left: 110%;> </style><i class="fas fa-users icon-color-white"></i> <b>Users: <%= users %></b></h1>
+           <center>
+           </div>
+
+        
+      </div>
+              <!--  Till here -->
+              	
+							</div>
+						</div>
+						<div class="hero-media">
+							<div class="header-illustration">
+								<img class="header-illustration-image asset-light" src="src/images/header-illustration-light.svg" alt="Header illustration">
+								<img class="header-illustration-image asset-dark" src="src/images/header-illustration-dark.svg" alt="Header illustration">
+							</div>
+							<div class="hero-media-illustration">
+								<img class="hero-media-illustration-image asset-light" src="src/images/hero-media-illustration-light.svg" alt="Hero media illustration">
+								<img class="hero-media-illustration-image asset-dark" src="src/images/hero-media-illustration-dark.svg" alt="Hero media illustration">
+							</div>
+							<div class="hero-media-container">
+								<img class="hero-media-image asset-light" src="<%= img1 %>" alt="Hero media">
+								<img class="hero-media-image asset-dark" src="<%= img1 %>" alt="Hero media">
+							</div>
+						</div>
+                    </div>
+                </div>
+            </section>
+            <section class="features section">
+                <div class="container">
+					<div class="features-inner section-inner has-bottom-divider">
+                        <div class="features-header text-center">
+                            <div class="container-sm">
+                                <h2 class="section-title mt-0"><%= name %></h2>
+                                <p class="section-paragraph"><%= description %></p>
+                                <div class="features-image">
+                                    <img class="features-illustration asset-dark"
+                                        src="src/images/features-illustration-dark.svg" alt="Feature illustration">
+                                    <img class="features-box asset-dark" src="<%= img2 %>" alt="Feature box">
+                                    <img class="features-illustration asset-dark"
+                                        src="src/images/features-illustration-top-dark.svg"
+                                        alt="Feature illustration top">
+                                    <img class="features-illustration asset-light"
+                                        src="src/images/features-illustration-light.svg" alt="Feature illustration">
+                                    <img class="features-box asset-light" src="<%= img2 %>" alt="Feature box">
+                                    <img class="features-illustration asset-light"
+                                        src="src/images/features-illustration-top-light.svg"
+                                        alt="Feature illustration top">
+                                </div>
+							</div>
+                        </div>
+                        <div class="features-wrap">
+                            <div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img class="asset-light" src="src/images/feature-01-light.svg" alt="Feature 01">
+										<img class="asset-dark" src="src/images/feature-01-dark.svg" alt="Feature 01">
+                                    </div>
+									<div class="feature-content">
+                                    	<h3 class="feature-title mt-0"><%= feature1 %></h3>
+                                    	<p class="text-sm mb-0"><%= feature1d %></p>
+									</div>
+								</div>
+                            </div>
+							<div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img class="asset-light" src="src/images/feature-02-light.svg" alt="Feature 02">
+										<img class="asset-dark" src="src/images/feature-02-dark.svg" alt="Feature 02">
+                                    </div>
+									<div class="feature-content">
+                                    	<h3 class="feature-title mt-0"><%= feature2 %></h3>
+                                    	<p class="text-sm mb-0"><%= feature2d %></p>
+									</div>
+								</div>
+                            </div>
+							<div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img class="asset-light" src="src/images/feature-03-light.svg" alt="Feature 03">
+										<img class="asset-dark" src="src/images/feature-03-dark.svg" alt="Feature 03">
+                                    </div>
+									<div class="feature-content">
+                                    	<h3 class="feature-title mt-0"><%= feature3 %></h3>
+                                    	<p class="text-sm mb-0"><%= feature3d %></p>
+									</div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            
+			<section class="cta section">
+                <div class="container-sm">
+                    <div class="cta-inner section-inner">
+                        <div class="cta-header text-center">
+                            <h2 class="section-title mt-0">Need Help?</h2>
+                            <p class="section-paragraph">This bot is still in development! While i will try to provide the lowest downtime but it may go off sometimes during updates and stuffs. If you want to follow up, you can join the Support Server.</p>
+							<div class="cta-cta">
+								<a class="button button-primary" href="/discord">Join Support Server</a>
+							</div>
+					    </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer has-top-divider">
+            <div class="container">
+                <div class="site-footer-inner">
+                    <div class="brand footer-brand">
+                        <a href="#">
+							<img class="asset-light" src="https://cdn.discordapp.com/icons/869916537610448897/a_9c233237bd7f8b2aeb37465f48419b87.gif?size=32" alt="Logo">
+							<img class="asset-dark" src="https://cdn.discordapp.com/icons/869916537610448897/a_9c233237bd7f8b2aeb37465f48419b87.gif?size=32" alt="Logo">
+                        </a>
+                    </div>
+                    <ul class="footer-links list-reset">
+                        <li>
+                            <a href="/vote">Vote Bot</a>
+                        </li>
+                        <li>
+                            <a href="/discord">Support Server</a>
+                        </li>
+                    </ul>
+                    <div class="footer-copyright">&copy; 2021 <%= name %>, all rights reserved</div>
+                    <div class= "footer-copyright"> <p> Template from Tejas Lmba#1924</p> </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="src/js/main.min.js"></script>
+</body>
+</html>
