@@ -114,10 +114,7 @@ if (config.showStats) {
 }
 
 
-	app.use(function(req, res) {
-  res.status(404).sendFile(__dirname + '/website/pages/404.html');
-		
-	});
+
 
 
 	app.get('/discord', (req, res) => {
