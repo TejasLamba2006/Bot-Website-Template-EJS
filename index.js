@@ -135,6 +135,11 @@ if (config.showStats) {
 		res.redirect(config.bot.botlist)
 	})
 
+app.use(function(req, res) {
+  res.status(404).sendFile(__dirname + '/website/pages/404.html');
+
+	});
+
     //---------END----------\\
     app.listen(config.website.port, null, null, () =>
 		console.log(`[INFO]: The Website is ready on port ${config.website.port}`)
