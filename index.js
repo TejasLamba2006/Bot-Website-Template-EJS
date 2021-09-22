@@ -101,7 +101,7 @@ if (config.showStats) {
   app.get('/', (req, res) => {
 		render(res, req, 'stats-index.ejs', {
       guilds: client.guilds.cache.size,
-      users: client.users.cache.size
+      users: client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)
     });
 	});
 
