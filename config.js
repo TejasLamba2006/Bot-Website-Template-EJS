@@ -13,6 +13,7 @@ module.exports = {
     description: '', //description of your bot used in embed and website
     support: '', // support server url of your bot
     invite: '', // invite link of your bot
+    botlist: '', // Voting website Ex. top.gg
     feature1: {
       main: '', // Feature 1 Heading
       description: '' // Feature 1 Description
