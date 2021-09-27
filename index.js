@@ -91,17 +91,13 @@ if (config.showStats) {
       repliedUser: false,
     },
     partials: ['MESSAGE', 'CHANNEL', 'REACTION'],
-   intents: [
-    Discord.Intents.FLAGS.GUILDS,
-    Discord.Intents.FLAGS.GUILD_MEMBERS
-    //all intents require for bot to run
-  ],
+   intents: [],
 });
 
   app.get('/', (req, res) => {
 		render(res, req, 'stats-index.ejs', {
       guilds: client.guilds.cache.size,
-      users: client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)
+      users: client.guilds.cache.reduce((c, g) => c + g.memberCount, 0)
     });
 	});
 
